@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(157, 245, 191);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 700px;
+  background-image: url(unnamed.jpg);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+.section {
+  width: 17%;
+}
+
+.article {
+  width: 17%;
+}
+button {
+  width: 210px;
+  height: 30px;
+  font-size: 12px;
+  color: black;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 2px;
+}
